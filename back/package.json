@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/morgan": "^1.9.9",
+    "typescript": "^5.8.2"
+  },
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "nodemon ./dist/index",
+    "dev": "tsc && nodemon ./dist/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "D": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.14.0",
+    "reflect-metadata": "^0.2.2",
+    "save-dev": "^0.0.1-security",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.21"
+  }
+}
