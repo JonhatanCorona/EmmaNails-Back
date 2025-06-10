@@ -9,7 +9,7 @@ const server = express();
 server.use(express.json());
 server.use(morgan("dev"));
 server.use(cors({
-  origin: ['http://localhost:5173', 'https://emmanails-back-production.up.railway.app'],
+  origin: ['http://localhost:5173', 'https://emmanails-back-production.up.railway.app', 'https://emma-nails-front.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
