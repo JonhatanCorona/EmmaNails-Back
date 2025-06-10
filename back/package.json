@@ -4,17 +4,17 @@
     "@types/dotenv": "^6.1.1",
     "@types/jsonwebtoken": "^9.0.9",
     "@types/morgan": "^1.9.9",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "name": "back",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "nodemon ./dist/index",
-    "dev": "tsc && nodemon ./dist/index"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "tsc",
+  "start": "node ./dist/index.js",
+  "dev": "tsc && nodemon ./dist/index.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
